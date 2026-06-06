@@ -137,3 +137,42 @@ c=Car()
 c.sound()
 b.sound()
 
+fruits=["banana","apple","mango"]
+print("apple" in fruits)
+if "apple" in fruits:
+  print("found")
+else:
+  print("not found")
+
+num=[1,2,3,4,5,6,7,8,9]
+for i in num:
+  if i==3:
+    print("found")
+  else:
+    print("not found")
+
+while True:
+  search=input("enter your fruits and type end for stop the loop :").lower()
+  if search=="end":
+    break
+  if search in fruits:
+    print("found")
+  else:
+    print("not found")
+
+
+count=0
+for i in num:
+  if i==3:
+    count=count+1
+print(count)
+
+dic={}
+while True:
+  key=input("enter your key and type end for stop the loop :")
+  if key=="end":
+    break
+  value=input("enter your value :")
+  dic[key]=value
+for key,value in dic.items():
+  print(key," : ",value)
