@@ -214,3 +214,14 @@ print(random.sample(listt,2))
 
 otp=random.randint(1000,9999)
 print("your otp is here :",otp)
+
+
+
+
+#even or odd checkeing
+
+x=10
+if x%2==0:
+  print("even")
+else:
+  print("odd")
