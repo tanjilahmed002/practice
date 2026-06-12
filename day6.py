@@ -81,3 +81,10 @@ if age>=18:
   print("you are eligible ")
 else:
   print("you are not eligible")
+
+
+
+import random
+
+option=random.randint(1000,9999)
+print("your otp is here :",option)
