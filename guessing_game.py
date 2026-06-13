@@ -1,8 +1,8 @@
 import random
 print("welcome to number guessing game!")
 otp=random.randint(1,10)
-count=0
-while count<5:
+
+while True:
     guess=int(input("enter your number & end to stop :"))
     if guess==otp:
         print("congratulation you are correct.")
