@@ -99,3 +99,52 @@ print(random.sample(listt,2))
 
 otp=random.randint(1000,9999)
 print("your otp is here :",otp)
+
+class Car:
+  def __init__ (self):
+    self.name="rimel"
+c=Car()
+print(c.name)
+class Car:
+  def __init__ (self):
+    self._name="rimel"
+class Car:
+  def __init__ (self):
+    self.__name="rimel"
+
+
+
+
+from abc import ABC,abstractmethod
+class Car(ABC):
+  def sound(self):
+    pass
+class Bike(Car):
+  def sound(self):
+    print("this is car")
+c=Bike()
+c.sound()
+
+class Car:
+  def sound(self):
+    print("car is not bike")
+
+class Bike(Car):
+  def eat(self):
+    print("bike is car")
+c=Bike()
+c.sound()
+c.eat()
+
+class Car:
+  def sound(self):
+    print("car is not bike")
+
+class Bike(Car):
+  def sound(self):
+    print("bike is car")
+c=Bike()
+b=Car()
+
+b.sound()
+c.sound()
