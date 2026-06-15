@@ -161,3 +161,15 @@ class Dog(Animal):
 a=Dog()
 a.sound()
 a.eat()
+
+
+class Cat:
+  def sound(self):
+    print("cat can sound meoo")
+class Lion(Cat):
+  def sound(self):
+    print('lion can roar')
+c=Cat()
+l=Lion()
+c.sound()
+l.sound()
