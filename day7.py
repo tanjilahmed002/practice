@@ -148,3 +148,16 @@ b=Car()
 
 b.sound()
 c.sound()
+
+
+
+
+class Animal:
+  def sound(self):
+    print("animal can make sound")
+class Dog(Animal):
+  def eat(self):
+    print("dog can barking")
+a=Dog()
+a.sound()
+a.eat()
