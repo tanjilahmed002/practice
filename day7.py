@@ -173,3 +173,17 @@ c=Cat()
 l=Lion()
 c.sound()
 l.sound()
+
+
+listtt=[1,2,3,4,5]
+print(listtt)
+for i in listtt:
+  print(i)
+
+
+listtt.append(6)
+print(listtt)
+listtt.insert(6,7)
+print(listtt)
+listtt.remove(6)
+print(listtt)
