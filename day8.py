@@ -32,3 +32,15 @@ for id,info in di.items():
   print(id)
   for k,v in info.items():
     print(k,v)
+  
+import math
+print(math.factorial)
+print(math.e)
+print(math.pi)
+import random
+print(random.random())
+print(random.randint(1000,9999))
+print(random.randrange(1000,9999,10))
+listttt=[1,2,3,4,5,6]
+print(random.choice(listttt))
+print(random.sample(listttt,2))
