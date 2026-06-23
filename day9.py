@@ -128,7 +128,7 @@ while True:
 for key,value in dic.items():
   print(key,value)
 
-  import math
+import math
 print(math.pi)
 print(math.e)
 print(math.factorial(4))
@@ -193,3 +193,10 @@ a=Animal()
 d=Dog()
 a.eat()
 d.eat()
+
+
+age=int(input("enter your age :"))
+if age>18:
+  print("you are eligile for vote ")
+else:
+  print("you cannot vote ")
