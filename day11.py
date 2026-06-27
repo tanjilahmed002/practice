@@ -14,3 +14,12 @@ while True:
     dic[key]=value
 for key,value in dic.items():
     print(key,value)
+
+import math
+print(math.pi)
+print(math.e)
+print(math.factorial(5))
+import random
+print(random.random())
+print(random.randint(1000,9999))
+print(random.randrange(100,999,2))
