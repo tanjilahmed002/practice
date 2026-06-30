@@ -23,3 +23,13 @@ import random
 print(random.random())
 print(random.randint(1000,9999))
 print(random.randrange(100,999,2))
+
+
+
+
+fruits=["apple","mango","banana"]
+print("apple" in fruits)
+if "apple" in fruits:
+    print("found")
+else:
+    print("not found")
