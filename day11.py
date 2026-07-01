@@ -43,3 +43,19 @@ for i in num:
         print("found")
     else:
         print("not found")
+
+
+while True:
+    seach=input("enter your fruits :")
+    if seach=="end":
+        break
+    if seach in fruits:
+        print("found")
+    else:
+        print("not found")
+
+count=0
+for i in num:
+    if i==2:
+        count=count+1
+print(count)
