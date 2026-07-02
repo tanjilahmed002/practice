@@ -59,3 +59,14 @@ for i in num:
     if i==2:
         count=count+1
 print(count)
+
+
+nn=[1,2,3,4,5,6]
+print(nn)
+for i in nn:
+    print(i)
+
+nn.append(7)
+print(nn)
+nn.insert(7,8)
+print(nn)
