@@ -70,3 +70,9 @@ nn.append(7)
 print(nn)
 nn.insert(7,8)
 print(nn)
+
+
+sett=(1,2,3,4,5,6)
+print(sett)
+for i in sett:
+    print(i)
