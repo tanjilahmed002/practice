@@ -76,3 +76,27 @@ sett=(1,2,3,4,5,6)
 print(sett)
 for i in sett:
     print(i)
+
+dicc={
+    "name":"rimel",
+    "age":23
+}
+print(dicc)
+
+for key,value in dicc.items():
+    print(key,value)
+
+for key in dicc:
+    print(key)
+
+for value in dicc.values():
+    print(value)
+
+print(dicc['age'])
+
+print(dicc.get("name"))
+dicc["name"]="tanjil"
+print(dicc)
+
+dicc.update({"name":"tanjil ahmed","age":24})
+print(dicc)
