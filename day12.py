@@ -172,3 +172,148 @@ while True:
   dic[key]=value
 for k,v in dic.items():
   print(k,v)
+
+
+
+
+import math
+print(math.pi)
+print(math.e)
+print(math.pow(4,2))
+print(math.sqrt(49))
+print(math.factorial(5))
+print(math.cos(60))
+
+
+
+import random
+print(random.random())
+print(random.randint(1000,9999))
+print(random.randrange(10,50,5))
+
+name=["rimel","tanjil","rahim","ashik"]
+print(random.choice(name))
+print(random.sample(name,2))
+otp=random.randint(1000,9999)
+print("your otp is here :",otp)
+
+
+
+class Student:
+  def __init__ (self):
+    self.name="rimel"
+s=Student()
+print(s.name)
+
+class Car:
+  def __init__ (self):
+    self._name="rimel"
+
+class Bike:
+  def __init__ (self):
+    self.__name="rimel"
+
+
+from typing import Self
+class Bank:
+  def __init__ (self):
+    self.__balance=500
+  def get_balance(self):
+    return self.__balance
+  def set_balance(self,amount):
+    if amount>=0:
+      self.__balance=amount
+    else:
+      print("invalid balance")
+b=Bank()
+print(b.get_balance())
+b.set_balance(1000)
+print(b.get_balance())
+
+
+
+from abc import ABC,abstractmethod
+class Car(ABC):
+  @abstractmethod
+  def start(self):
+    pass
+class Bike(Car):
+  def start(self):
+    print("bike is not a car")
+b=Bike()
+b.start()
+
+
+class Animal:
+  def eat(self):
+    print("animal can eat everything")
+class Dog(Animal):
+  def sound(self):
+    print("dog can barking")
+
+d=Dog()
+d.eat()
+d.sound()
+
+
+class Animal:
+  def barking(self):
+    print("animal can barking")
+class Dog:
+  def barking(self):
+    print("dog also can barking")
+a=Animal()
+a.barking()
+d=Dog()
+d.barking()
+
+
+#lifo:last in first out
+stack=[]
+stack.append(10)
+stack.append(20)
+stack.append(30)
+print(stack)
+stack.pop()
+print(stack)
+
+
+
+#queue
+from collections import deque
+queue=deque()
+queue.append(10)
+queue.append(20)
+queue.popleft()
+print(queue)
+
+
+num=[2,4,6,7,3,9,2,10,14,11,12,13,5,4]
+
+print(sorted(num))
+print(num.sort())
+print(num)
+
+
+
+mark=[30,20,50,80,30,90,40]
+mark.sort(reverse=True)
+print(mark)
+
+name=["rimel","tanjil",'rahim',"ashik","ekbal"]
+name.sort()
+print(name)
+
+#linearsearch
+
+arr=[1,2,3,4,5,6,7,8,9]
+value=3
+for i in arr:
+
+  if i==value:
+    print("found")
+   
+
+for i in range(len(arr)):
+  if arr[i]==value:
+    print("found",i)
