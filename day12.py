@@ -115,3 +115,60 @@ t=list(sett)
 print(t)
 f=set(t)
 print(f)
+
+from enum import unique
+from enum import unique
+from enum import unique
+from re import search
+fruits=["apple","mango","banana","jackfruits"]
+print("apple" in fruits)
+if "apple" in fruits:
+  print("found")
+
+for i in fruits:
+  if i=="apple":
+    print('found')
+  else:
+    print("not found")
+
+
+num=[1,2,3,4,5,6,7]
+for i in num:
+  if i==3:
+    print("found")
+    break
+  else:
+    print("not found")
+
+while True:
+  search=input("enter your choice :").lower()
+  if search=="end":
+    break
+  if search in fruits:
+    print("found")
+  else:
+    print("not found")
+
+count=0
+for i in num:
+  if i==3:
+    count=count+1
+print(count)
+
+print(num.count(1))
+unique=[]
+for n in num:
+  if not  unique:
+    unique.append(n)
+for i in unique:
+  print(i,"appears",num.count(i))
+
+dic={}
+while True:
+  key=input("enter your key :").lower()
+  if key=="end":
+    break
+  value=input("enter your value :").lower()
+  dic[key]=value
+for k,v in dic.items():
+  print(k,v)
