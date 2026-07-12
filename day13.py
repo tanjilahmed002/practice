@@ -63,3 +63,53 @@ print("even :",even)
 print("odd :",odd)
 
 
+string=input("input your string :")
+for i in range(len(string)):
+    print(i)
+
+
+
+arr=[10,20,30,40,50]
+t=30
+for i in range(len(arr)):
+  if arr[i]==t:
+    print("found")
+
+
+fruits=["apple","mango","banana"]
+print("apple" in fruits)
+if "apple" in fruits:
+  print("found")
+
+num=[1,2,3,4,5,6,7,8]
+for i in num:
+  if i==3:
+    print("found")
+  else:
+    print("not found")
+
+while True:
+  search=input("enter your fruits :")
+  if search=="end":
+    break
+  if search in fruits:
+    print("found")
+  else:
+    print("not found")
+
+
+count=0
+for i in num:
+  if i==3:
+    count=count+1
+print(count)
+
+dic={}
+while True:
+  key=input("enter your key :")
+  if key=="end":
+    break
+  value=input("enter your value :")
+  dic[key]=value
+for i,k in dic.items():
+  print(i,k)
