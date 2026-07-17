@@ -92,3 +92,12 @@ class Bike:
         self.name="rimel"
 e=Bike()
 print(e.name)
+
+
+class Book:
+    def __init__ (self):
+        self._name+"rimel"
+
+class Girl:
+    def __init__ (self):
+        self.__name="tanjil"
