@@ -96,8 +96,42 @@ print(e.name)
 
 class Book:
     def __init__ (self):
-        self._name+"rimel"
+        self._name="rimel"
 
 class Girl:
     def __init__ (self):
         self.__name="tanjil"
+
+
+
+from abc import ABC,abstractmethod
+class Doogy(ABC):
+    def sound(self):
+        pass
+class Cat(Doogy):
+    def sound(self):
+        print("cat is not a doog")
+c=Cat()
+
+c.sound()
+
+class Name:
+    def name(self):
+        print("my name is rimel")
+class Age(Name):
+    def age(self):
+        print("i am 21 years old")
+a=Age()
+a.name()
+a.age()
+
+class Cook:
+    def rice(self):
+        print("i cannot cook everything")
+class Eat:
+    def eat(self):
+        print("i can eat everything")
+c=Cook()
+c.rice()
+e=Eat()
+e.eat()
