@@ -135,3 +135,21 @@ c=Cook()
 c.rice()
 e=Eat()
 e.eat()
+
+
+
+class Bank:
+    def __init__(self):
+        self._balance=500
+    def get_balance(self):
+        return self._balance
+    def set_balance(self,amount):
+        if amount>0:
+            self._balance=amount
+        else:
+            print("invalid balance")
+
+b=Bank()
+print(b.get_balance())
+b.set_balance(1000)
+print(b.get_balance())
