@@ -198,3 +198,9 @@ c=Cat()
 c.sound()
 d=Dog()
 d.soundd()
+
+
+
+
+fruits=[1,2,3,4]
+print(fruits)
