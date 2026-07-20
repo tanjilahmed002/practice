@@ -153,3 +153,48 @@ b=Bank()
 print(b.get_balance())
 b.set_balance(1000)
 print(b.get_balance())
+
+
+class Gopod:
+    def __init__ (self):
+        self.name="rimel"
+g=Gopod()
+print(g.name)
+
+
+class DOOg:
+    def __init__ (self):
+        self._namee="rimel"
+
+from abc import ABC,abstractmethod
+class King(ABC):
+    @abstractmethod
+    def sounf(self):
+        pass
+class Queen(King):
+    def sounf(self):
+        print("you are queen only king of my heart")
+
+q=Queen()
+q.sounf()
+
+class Bank:
+    def balance(self):
+        print("yopur account is empty")
+class Person(Bank):
+    def amount(self):
+        print("your amount is not big")
+p=Person()
+p.balance()
+p.amount()
+
+class Cat:
+    def sound(self):
+        print("cat can sound meww")
+class Dog:
+    def soundd(self):
+        print("dog can barking")
+c=Cat()
+c.sound()
+d=Dog()
+d.soundd()
