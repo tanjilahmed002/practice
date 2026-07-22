@@ -202,5 +202,42 @@ d.soundd()
 
 
 
-fruits=[1,2,3,4]
+fruits=["apple","mango","banana"]
 print(fruits)
+if 'apple' in fruits:
+    print("found")
+else:
+    print("not found")
+
+num=[1,2,3,4,5,6,7]
+for i in num:
+    if i==3:
+        print("found")
+    else:
+        print("not found")
+
+count=0
+for i in num:
+    if i==3:
+        count=count+1
+print(count)
+
+while True:
+    search=input("enter your choice :")
+    if search=="end":
+        break
+    if search in fruits:
+        print("found")
+    else:
+        print("not found")
+
+dic={}
+while True:
+    key=input('enter your key :')
+    if key=="end":
+        break
+    value=input("enter your value :")
+
+    dic[key]=value
+
+print(dic)
