@@ -14,3 +14,11 @@ print(listt)
 listt.clear()
 print(listt)
 
+tupple=(1,2,3,4,"rimel")
+print(tupple)
+for i in tupple:
+  print(i)
+t=list(tupple)
+print(t)
+l=tuple(t)
+print(l)
