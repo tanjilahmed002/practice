@@ -22,3 +22,28 @@ t=list(tupple)
 print(t)
 l=tuple(t)
 print(l)
+
+
+dic={
+    "name":"rimel",
+    "age":23
+}
+print(dic)
+for key,value in dic.items():
+  print(key,value)
+for key in dic:
+  print(key)
+for value in dic.values():
+  print(value)
+print(dic["name"])
+print(dic.get("age"))
+dic["name"]="rimel ahmed"
+print(dic["name"])
+dic.update({"name":"rimel","age":23})
+print(dic)
+del dic["name"]
+print(dic)
+dic.pop("age")
+print(dic)
+dic.clear()
+print(dic)
