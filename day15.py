@@ -47,3 +47,37 @@ dic.pop("age")
 print(dic)
 dic.clear()
 print(dic)
+
+dic={
+    "s1":{"name":"rimel","age":23},
+    "s2":{"name":"rimel","age":24}
+}
+print(dic)
+print(dic["s1"]["name"])
+dic["s1"]["name"]="rimel ahmed"
+print(dic["s1"]["name"])
+
+dic.update({"s1":{"name":"rimel","age":25}})
+print(dic)
+
+dic.popitem()
+print(dic)
+dic.clear()
+print(dic)
+
+sett={1,2,3,4,5,6}
+print(sett)
+for i in sett:
+  print(i)
+sett.add(7)
+print(sett)
+sett.update({8,9,10,11,12,13,13})
+print(sett)
+sett.remove(13)
+print(sett)
+sett.discard(13)
+print(sett)
+sett.pop()
+print(sett)
+sett.clear()
+print(sett)
