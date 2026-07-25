@@ -117,3 +117,55 @@ while True:
   dic[key]=value
 for i,k in dic.items():
   print(i,k)
+
+
+class Car:
+  def __init__ (self):
+    self.name="rimel"
+c=Car()
+
+print(c.name)
+
+class Bike:
+  def __init__ (self):
+    self._name="rimel"
+class Bike:
+  def __init__ (self):
+    self.__name="rimel"
+
+from abc import abstractmethod
+from abc import abstractmethod
+from abc import ABC,abstractmethod
+class Bike(ABC):
+  @abstractmethod
+  def name(self):
+    pass
+class Car(Bike):
+  def name(self):
+    print("he is man ")
+
+b=Car()
+b.name()
+b.name()
+
+class Car:
+  def sound(self):
+    print("he can sound")
+class Bike(Car):
+  def hpp(self):
+    print("ha cannot")
+b=Bike()
+b.sound()
+b.hpp()
+
+
+class Car:
+  def hpp(self):
+    print("he can sound")
+class Bike:
+  def sound(self):
+    print("ha cannot")
+c=Car()
+c.hpp()
+b=Bike()
+b.sound()
