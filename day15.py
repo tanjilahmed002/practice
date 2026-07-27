@@ -175,3 +175,11 @@ print(math.pi)
 print(math.factorial(4))
 print(math.cos(20))
 print(math.tan(20))
+
+import random
+print(random.random())
+print(random.randint(100,999))
+print(random.randrange(1000,9999,4))
+ll=["rimel","tanjil","rahim",1,2,3,4,5]
+print(random.sample(ll,2))
+print(random.choice(ll))
