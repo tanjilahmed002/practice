@@ -183,3 +183,6 @@ print(random.randrange(1000,9999,4))
 ll=["rimel","tanjil","rahim",1,2,3,4,5]
 print(random.sample(ll,2))
 print(random.choice(ll))
+
+otp=random.randint(1000,9999)
+print("here is your otp :",otp)
