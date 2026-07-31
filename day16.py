@@ -47,3 +47,35 @@ a=Cat()
 a.sound()
 e=Dog()
 e.sound()
+
+
+
+
+fruits=["apple","mango","banana"]
+print("apple" in fruits)
+if "apple" in fruits:
+    print("found")
+else:
+    printa("not found")
+
+num=[1,2,3,4,5,6]
+for i in num:
+    if i==3:
+        print("found")
+    else:
+        print("not found")
+
+count=0
+for i in num:
+    if i==3:
+        count=count=1
+print(count)
+
+while True:
+    search=input("enter your choice :").lower()
+    if search=="end":
+        break
+    if search in fruits:
+        print("found")
+    else:
+        print("not found")
