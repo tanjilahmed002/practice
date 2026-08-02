@@ -90,3 +90,12 @@ while True:
     dic[key]=value
 for k,v in dic.items():
     print(k,v)
+
+dicc={
+    "s1":{"name":"rimel","age":23,"mark":80},
+    "s2":{"name":"tanjil","age":24,"mark":90}
+}
+for i,j in dicc.items():
+    print(i)
+    for key,value in j.items():
+        print(key,value)
