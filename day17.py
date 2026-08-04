@@ -58,3 +58,13 @@ dic.pop("age")
 print(dic)
 dic.clear()
 print(dic)
+
+dic={
+    "s1":{"name":"rimel","age":24},
+    "s2":{"name":"tanjil","age":23}
+}
+print(dic)
+for i,j in dic.items():
+    print(i)
+    for key,value in j.items():
+        print(key,value)
