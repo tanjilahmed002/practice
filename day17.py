@@ -68,3 +68,27 @@ for i,j in dic.items():
     print(i)
     for key,value in j.items():
         print(key,value)
+
+dic.popitem()
+print(dic)
+dic.clear()
+print(dic)
+
+sett={1,2,3,4,5}
+print(sett)
+for i in sett:
+    print(i)
+
+sett.add(6)
+print(sett)
+sett.update({7,8,9,10,11})
+print(sett)
+
+sett.remove(11)
+print(sett)
+sett.discard(11)
+print(sett)
+sett.pop()
+print(sett)
+sett.clear()
+print(sett)
