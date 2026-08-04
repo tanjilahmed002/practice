@@ -18,3 +18,43 @@ print(listt)
 listt.clear()
 
 print(listt)
+
+tupple=(1,2,3,4,5,6)
+print(tupple)
+for i in tupple:
+    print(i)
+
+print(tupple[2::2])
+
+dic={
+    "name":"rimel",
+    "age":23
+}
+print(dic)
+
+for key,value in dic.items():
+    print(key,value)
+
+for key in dic:
+    print(key)
+
+
+for value in dic.values():
+    print(value)
+
+print(dic["age"])
+
+print(dic.get("name"))
+
+dic["age"]=24
+print(dic)
+
+dic.update({"name":"rimel ahmed","age":23})
+print(dic)
+
+del dic['name']
+print(dic)
+dic.pop("age")
+print(dic)
+dic.clear()
+print(dic)
