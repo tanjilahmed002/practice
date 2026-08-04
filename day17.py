@@ -92,3 +92,49 @@ sett.pop()
 print(sett)
 sett.clear()
 print(sett)
+
+
+
+
+fruit=["apple","mango","banana"]
+print("mango" in fruit)
+if "apple" in fruit:
+    print('found')
+else:
+    print("not found")
+
+
+num=[1,2,3,4,5,6,7,8,2,3,1,4,3,2,1,4]
+
+for i in num:
+    if i==3:
+        print("found")
+    else:
+        print("not found")
+
+count=0
+for i in num:
+    if i==1:
+        count=count+1
+print(count)
+
+while True:
+    search=input("enter your choice :")
+    if search=="end":
+        break
+    if search in fruit:
+        print("found")
+    else:
+        print("not found")
+
+dic={
+
+}
+while True:
+    key=input("enter your key :")
+    if key=="end":
+        break
+    value=input("enter your value :")
+    dic[key]=value
+for i,j in dic.items():
+    print(i,j)
