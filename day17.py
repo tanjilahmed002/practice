@@ -138,3 +138,9 @@ while True:
     dic[key]=value
 for i,j in dic.items():
     print(i,j)
+
+
+import math
+print(math.e)
+print(math.pi)
+print(math.factorial(4))
