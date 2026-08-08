@@ -10,3 +10,9 @@ print(random.choice(fruit))
 
 otp=random.randint(1000,9999)
 print("here is your otp :",otp)
+
+
+import math
+print(math.e)
+print(math.pi)
+print(math.factorial(3))
