@@ -16,3 +16,16 @@ import math
 print(math.e)
 print(math.pi)
 print(math.factorial(3))
+
+
+class Cat:
+    def __init__(self):
+        self.name="rimel"
+c=Cat()
+print(c.name)
+class Cat:
+    def __init__(self):
+        self._name="rimel"
+class Cat:
+    def __init__(self):
+        self.__name="rimel"
