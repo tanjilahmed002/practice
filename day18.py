@@ -29,3 +29,14 @@ class Cat:
 class Cat:
     def __init__(self):
         self.__name="rimel"
+
+from abc import ABC,abstractmethod
+class Car(ABC):
+    @abstractmethod
+    def sound(self):
+        pass
+class Bike(Car):
+    def sound(self):
+        print("this is not car")
+a=Bike()
+a.sound()
