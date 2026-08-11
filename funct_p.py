@@ -123,3 +123,8 @@ length=float(input("enter your length :"))
 width=float(input("enter your width :"))
 add=rectangle(length,width)
 print(add)
+
+def rectangle(length,width):
+  return length*width
+area=rectangle(4,5)
+print(area)
