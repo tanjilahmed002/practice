@@ -114,3 +114,12 @@ def check_number(number):
     print("zero")
 number=int(input("enter your number :"))
 check_number(number)
+
+def rectangle(length,width):
+  area=length*width
+  return area
+
+length=float(input("enter your length :"))
+width=float(input("enter your width :"))
+add=rectangle(length,width)
+print(add)
