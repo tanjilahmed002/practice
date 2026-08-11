@@ -128,3 +128,20 @@ def rectangle(length,width):
   return length*width
 area=rectangle(4,5)
 print(area)
+
+
+print("welcome to smart task repotition system")
+
+task_name=input("enter your task name :")
+
+time=int(input("enter how many times they want to repeat this task today :"))
+for i in range(1,time+1):
+  
+    print(f"task {i} : {task_name}")
+
+count_down=5
+while count_down:
+  
+  print(count_down)
+  count_down=count_down-1
+
