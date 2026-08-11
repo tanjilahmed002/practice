@@ -103,3 +103,14 @@ def check_even_odd(number):
 
 number=int(input("enter your number :"))
 check_even_odd(number)
+
+
+def check_number(number):
+  if number>0:
+    print("positive")
+  elif number<0:
+    print("negetive")
+  else:
+    print("zero")
+number=int(input("enter your number :"))
+check_number(number)
