@@ -92,3 +92,14 @@ a=int(input("enter your first number :"))
 b=int(input("enter your second number :"))
 w,x,y,z=mul(a,b)
 print(w,x,y,z)
+
+
+def check_even_odd(number):
+  if number%2==0:
+    print("even")
+    
+  else:
+    print("odd")
+
+number=int(input("enter your number :"))
+check_even_odd(number)
