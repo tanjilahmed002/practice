@@ -14,3 +14,7 @@ print(add)
 def function_name():
     return 100
 print(function_name())
+
+def student(name,age):
+    print(name,age)
+student(name="rimel ahmed",age=23)
