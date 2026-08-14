@@ -18,3 +18,8 @@ print(function_name())
 def student(name,age):
     print(name,age)
 student(name="rimel ahmed",age=23)
+
+def single(x):
+    return x*x
+madd=single(34)
+print(madd)
