@@ -28,3 +28,7 @@ def mul(a,b):
     return a+b,a-b,a/b,a*b
 w,x,y,z=mul(5,3)
 print(w,x,y,z)
+
+def function_name():
+  print("hello")
+function_name()
