@@ -41,3 +41,8 @@ def add(a,b):
     return a+b
 sum=add(3,4)
 print(sum)
+
+def add():
+    return 100
+
+print(add())
