@@ -52,3 +52,9 @@ print(add())
 def function_name(name,age):
     print(name,age)
 function_name(name="rimel",age=23)
+
+
+def square(x):
+    return x*x
+addd=square(3)
+print(addd)
