@@ -46,3 +46,9 @@ def add():
     return 100
 
 print(add())
+
+
+
+def function_name(name,age):
+    print(name,age)
+function_name(name="rimel",age=23)
