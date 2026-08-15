@@ -58,3 +58,8 @@ def square(x):
     return x*x
 addd=square(3)
 print(addd)
+
+def mull(a,b):
+    return a+b,a-b
+x,y=mull(6,3)
+print(x,y)
