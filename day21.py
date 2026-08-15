@@ -36,3 +36,8 @@ function_name()
 def function_name(name):
     print("hello",name)
 function_name("rimel")
+
+def add(a,b):
+    return a+b
+sum=add(3,4)
+print(sum)
