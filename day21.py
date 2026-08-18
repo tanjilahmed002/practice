@@ -69,3 +69,7 @@ class Car:
         self.name="rimel"
 c=Car()
 print(c.name)
+class Bike:
+    def __init__(self):
+        self._name="tanjil"
+        
