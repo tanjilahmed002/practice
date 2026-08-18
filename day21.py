@@ -77,4 +77,15 @@ class Bike:
 class Honda:
     def __int__(self):
         self.__name="rimel ahmed"
-        
+
+
+from abc import ABC,abstractmethod
+class Bike(ABC):
+    @abstractmethod
+    def sound(self):
+        pass
+class Kook(Bike):
+    def sound(self):
+        print("this is not a car")
+k=Kook()
+k.sound()
