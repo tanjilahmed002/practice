@@ -63,3 +63,9 @@ def mull(a,b):
     return a+b,a-b
 x,y=mull(6,3)
 print(x,y)
+
+class Car:
+    def __init__ (self):
+        self.name="rimel"
+c=Car()
+print(c.name)
