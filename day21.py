@@ -89,3 +89,15 @@ class Kook(Bike):
         print("this is not a car")
 k=Kook()
 k.sound()
+
+
+class Bike:
+    def sss(self):
+        print("is a cow")
+class Cook(Bike):
+    def dd(self):
+        print("is not a coq")
+b=Bike()
+b.sss()
+d=Cook()
+d.dd()
