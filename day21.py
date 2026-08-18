@@ -72,4 +72,9 @@ print(c.name)
 class Bike:
     def __init__(self):
         self._name="tanjil"
+
+
+class Honda:
+    def __int__(self):
+        self.__name="rimel ahmed"
         
