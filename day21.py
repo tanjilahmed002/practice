@@ -101,3 +101,14 @@ b=Bike()
 b.sss()
 d=Cook()
 d.dd()
+
+class Bike:
+    def sss(self):
+        print("is a cow")
+class Cook(Bike):
+    def sss(self):
+        print("is not a coq")
+b=Bike()
+b.sss()
+c=Cook()
+c.sss()
