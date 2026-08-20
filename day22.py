@@ -19,3 +19,9 @@ print(function_name())
 def function_name(name,age):
     print(name,age)
 function_name(name="rimel ahmed",age=23)
+
+
+def function_name(x):
+    return x*x
+add=function_name(4)
+print(add)
