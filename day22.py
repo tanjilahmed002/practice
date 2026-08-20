@@ -25,3 +25,8 @@ def function_name(x):
     return x*x
 add=function_name(4)
 print(add)
+
+def function_name(a,b):
+    return a+b,a-b,a*b
+x,y,z=function_name(5,4)
+print(x,y,z)
