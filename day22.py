@@ -41,3 +41,6 @@ for i in listt:
 
 listt.append(6)
 print(listt)
+
+listt.insert(6,7)
+print(listt)
