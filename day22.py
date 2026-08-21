@@ -38,3 +38,6 @@ print(listt)
 
 for i in listt:
     print(i)
+
+listt.append(6)
+print(listt)
