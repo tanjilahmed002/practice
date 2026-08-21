@@ -30,3 +30,8 @@ def function_name(a,b):
     return a+b,a-b,a*b
 x,y,z=function_name(5,4)
 print(x,y,z)
+
+
+
+listt=[1,2,3,4,5]
+print(listt)
