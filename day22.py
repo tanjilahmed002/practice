@@ -47,3 +47,5 @@ print(listt)
 
 listt.remove(7)
 print(listt)
+listt.pop(4)
+print(listt)
