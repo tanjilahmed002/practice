@@ -58,3 +58,9 @@ for i in tupple:
     print(i)
 print(tupple[1:2])
 print(tupple[-1:-2])
+
+dic={
+    "name":"rimel",
+    "age":23
+}
+print(dic)
