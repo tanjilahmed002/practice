@@ -71,3 +71,6 @@ print(dic["age"])
 
 dic["name"]="rimel ahmed"
 print(dic["name"])
+
+for key,value in dic.items():
+    print(key,value)
