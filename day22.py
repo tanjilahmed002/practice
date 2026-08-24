@@ -64,3 +64,5 @@ dic={
     "age":23
 }
 print(dic)
+
+print(dic["name"])
