@@ -34,3 +34,8 @@ listt.pop(7)
 print(listt)
 listt.clear()
 print(listt)
+
+print(dic.get("name"))
+
+dic.update({"name":"rimel","age":24})
+print(dic)
