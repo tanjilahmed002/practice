@@ -3,3 +3,8 @@ print(listt)
 
 for i in listt:
     print(i)
+
+listt.append(8)
+print(listt)
+listt.insert(8,9)
+print(listt)
