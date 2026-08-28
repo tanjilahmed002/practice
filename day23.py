@@ -10,3 +10,6 @@ listt.insert(8,9)
 print(listt)
 
 print(listt[-3:-1])
+
+tupple=(1,2,3,4,"rimel","tanjil")
+print(tupple)
