@@ -13,3 +13,17 @@ print(listt[-3:-1])
 
 tupple=(1,2,3,4,"rimel","tanjil")
 print(tupple)
+
+for j in tupple:
+    print(j)
+
+
+dic={
+    "name":"rimel",
+    "age":23
+}
+print(dic)
+print(dic["age"])
+
+dic["name"]="rimel ahmed"
+print(dic)
