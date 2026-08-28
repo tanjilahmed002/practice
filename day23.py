@@ -27,3 +27,10 @@ print(dic["age"])
 
 dic["name"]="rimel ahmed"
 print(dic)
+
+listt.remove(7)
+print(listt)
+listt.pop(7)
+print(listt)
+listt.clear()
+print(listt)
