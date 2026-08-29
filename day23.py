@@ -189,3 +189,16 @@ b=Bank()
 print(b.get_balance())
 b.set_balance(100)
 print(b.get_balance())
+
+
+
+from abc import ABC,abstractmethod
+class Car(ABC):
+  @abstractmethod
+  def sound(self):
+    pass
+class Bike(Car):
+  def sound(self):
+    print("bike is not a car")
+b=Bike()
+b.sound()
