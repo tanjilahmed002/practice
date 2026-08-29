@@ -172,3 +172,20 @@ class Name:
 class Bike:
     def __init__(self):
         self.__nam="rimel ahmed"
+
+
+class Bank:
+  def __init__(self):
+    self.__balance=500
+  def get_balance(self):
+    return self.__balance
+  def set_balance(self,amount):
+    if amount>0:
+      self.__balance=amount
+    else:
+      print("invalid amount")
+
+b=Bank()
+print(b.get_balance())
+b.set_balance(100)
+print(b.get_balance())
