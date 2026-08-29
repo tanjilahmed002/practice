@@ -164,3 +164,11 @@ class Car:
         self.name="rimel ahmed"
 c=Car()
 print(c.name)
+
+class Name:
+    def __init__(self):
+        self._na="rimel"
+
+class Bike:
+    def __init__(self):
+        self.__nam="rimel ahmed"
