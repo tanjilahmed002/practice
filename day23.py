@@ -213,3 +213,15 @@ class Dog(Animal):
 d=Dog()
 d.sound()
 d.eat()
+
+
+class Animal:
+  def sound(self):
+    print("animal can sound ")
+class Cat:
+  def sound(self):
+    print("cat can sound meooo")
+c=Cat()
+c.sound()
+a=Animal()
+a.sound()
