@@ -225,3 +225,27 @@ c=Cat()
 c.sound()
 a=Animal()
 a.sound()
+
+def name():
+  print("hello")
+name()
+def funct_name(name):
+  print("hello",name)
+funct_name("rimel")
+def funct_name(a,b):
+  return a+b
+
+add=funct_name(3,2)
+print(add)
+
+def funct_name():
+  return 100
+funct_name()
+
+def funct_name(name,age):
+  print(name,age)
+funct_name(name="rimel",age=23)
+def squart(x):
+  return x*x
+ad=squart(5)
+print(ad)
