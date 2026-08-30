@@ -68,7 +68,7 @@ while True:
         for i in listt:
             if i["id"]==delete_for_choice:
                 listt.remove(i)
-            print("deleted successfully")
+        print("deleted successfully")
         
     elif choice=="6":
         print("total expense")
