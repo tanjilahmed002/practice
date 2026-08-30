@@ -49,8 +49,15 @@ while True:
                 print("updated successfully")
 
         
-        print("update expense")
+        
     elif choice=="4":
+        search=input("enter your id for search :")
+        for i in listt:
+            if i["id"]==search:
+                print("Id :",i["id"])
+                print("name :",i["name"])
+                print("Amount :",i["amount"])
+                print("Date :",i["date"])
         print("updateexpense")
     elif choice=="5":
         print("de;ete expense")
