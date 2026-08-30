@@ -1,7 +1,7 @@
 print("welcome to daily expense tracker")
 dic={}
 listt=[]
-total_expense=0
+
 while True:
     print("1.Add expense")
     print("2.view expense")
@@ -75,9 +75,10 @@ while True:
         print("deleted successfully")
         
     elif choice=="6":
+        total_expense=0
         for i in listt:
-            if i["amount"]:
-                total_expense=total_expense+amount
+            
+            otal_expense=total_expense+i["amount"]
         print("Total expesne :",total_expense)
 
         print("total expense")
