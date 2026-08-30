@@ -4,8 +4,8 @@ listt=[]
 while True:
     print("1.Add expense")
     print("2.view expense")
-    print("3.search expense")
-    print("4.update expense")
+    print("3.update expense")
+    print("4.search expense")
     print("5.Delete expense")
     print("6.total expense")
     choice=input("enter your choice & type 7 for end the loop :")
@@ -47,6 +47,8 @@ while True:
                 updated_date=input("enter your updated date :")
                 i.update({"name":names,"amount":amounts,"category":categories,"date":updated_date})
                 print("updated successfully")
+            else:
+                print("invalid id")
 
         
         
@@ -58,9 +60,11 @@ while True:
                 print("name :",i["name"])
                 print("Amount :",i["amount"])
                 print("Date :",i["date"])
-        print("updateexpense")
+            else:
+                print("invalid")
+        
     elif choice=="5":
-        print("de;ete expense")
+        print("delete expense")
     elif choice=="6":
         print("total expense")
     else:
