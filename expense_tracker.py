@@ -1,6 +1,7 @@
 print("welcome to daily expense tracker")
 dic={}
 listt=[]
+total_expense=0
 while True:
     print("1.Add expense")
     print("2.view expense")
@@ -42,7 +43,7 @@ while True:
         for i in listt:
             if i["id"]==choices_id:
                 names=input("enteryour updated name :")
-                amounts=input("enter your updated amounts :")
+                amounts=float(input("enter your updated amounts :"))
                 categories=input("enter your updated categories :")
                 updated_date=input("enter your updated date :")
                 i.update({"name":names,"amount":amounts,"category":categories,"date":updated_date})
@@ -59,6 +60,7 @@ while True:
                 print("Id :",i["id"])
                 print("name :",i["name"])
                 print("Amount :",i["amount"])
+                print("category :",i["category"])
                 print("Date :",i["date"])
             else:
                 print("invalid")
@@ -68,9 +70,16 @@ while True:
         for i in listt:
             if i["id"]==delete_for_choice:
                 listt.remove(i)
+            else:
+                print("invalid")
         print("deleted successfully")
         
     elif choice=="6":
+        for i in listt:
+            if i["amount"]:
+                total_expense=total_expense+amount
+        print("Total expesne :",total_expense)
+
         print("total expense")
     else:
         print("invalid choice")
