@@ -38,6 +38,17 @@ while True:
         
         
     elif choice=="3":
+        choices_id=input("enter your id for update :")
+        for i in listt:
+            if i["id"]==choices_id:
+                names=input("enteryour updated name :")
+                amounts=input("enter your updated amounts :")
+                categories=input("enter your updated categories :")
+                updated_date=input("enter your updated date :")
+                i.update({"name":names,"amount":amounts,"category":categories,"date":updated_date})
+                print("updated successfully")
+
+        
         print("update expense")
     elif choice=="4":
         print("updateexpense")
