@@ -78,7 +78,7 @@ while True:
         total_expense=0
         for i in listt:
             
-            otal_expense=total_expense+i["amount"]
+            total_expense=total_expense+i["amount"]
         print("Total expesne :",total_expense)
 
         print("total expense")
