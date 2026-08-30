@@ -64,7 +64,12 @@ while True:
                 print("invalid")
         
     elif choice=="5":
-        print("delete expense")
+        delete_for_choice=input("enter your id for deleting :")
+        for i in listt:
+            if i["id"]==delete_for_choice:
+                listt.remove(i)
+            print("deleted successfully")
+        
     elif choice=="6":
         print("total expense")
     else:
