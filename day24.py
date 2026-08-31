@@ -45,3 +45,15 @@ class Bike:
 class Car:
     def __init__(self):
         self.__name="rimel"
+
+
+from abc import ABC,abstractmethod
+class Bike(ABC):
+    @abstractmethod
+    def sound(self):
+        pass
+class Car(Bike):
+    def sound(self):
+        print("car is not a bike")
+b=Car()
+b.sound()
