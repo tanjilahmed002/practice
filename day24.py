@@ -30,3 +30,10 @@ def mul(a,b):
     return a+b,a-b,a*b
 x,y,z=mul(6,4)
 print(x,y,z)
+
+
+class Name:
+    def __init__(self):
+        self.name="rimel"
+c=Name()
+print(c.name)
