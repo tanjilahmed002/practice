@@ -20,3 +20,8 @@ sq()
 def info(name,age):
     print(name,age)
 info(name="rimel ahmed",age=23)
+
+def square(x):
+    return x*x
+ss=square(6)
+print(ss)
