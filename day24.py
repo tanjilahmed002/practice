@@ -25,3 +25,8 @@ def square(x):
     return x*x
 ss=square(6)
 print(ss)
+
+def mul(a,b):
+    return a+b,a-b,a*b
+x,y,z=mul(6,4)
+print(x,y,z)
