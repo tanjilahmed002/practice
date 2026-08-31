@@ -37,3 +37,11 @@ class Name:
         self.name="rimel"
 c=Name()
 print(c.name)
+
+
+class Bike:
+    def __init__(self):
+        self._name="rimel"
+class Car:
+    def __init__(self):
+        self.__name="rimel"
