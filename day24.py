@@ -16,3 +16,7 @@ print(add)
 def sq():
     return 200
 sq()
+
+def info(name,age):
+    print(name,age)
+info(name="rimel ahmed",age=23)
