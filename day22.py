@@ -74,3 +74,10 @@ print(dic["name"])
 
 for key,value in dic.items():
     print(key,value)
+
+
+age=int(input("enter your age :"))
+if age>18:
+    print("you are eligible ")
+else:
+    print("you are not e;igible")
