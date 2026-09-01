@@ -35,3 +35,14 @@ class Dog(Animal):
 d=Dog()
 d.sound()
 d.eat()
+
+class Dog:
+    def eat(self):
+        print("dog can eat everuthing")
+class Cat:
+    def eat(self):
+        print("cat can eat ")
+f=Dog()
+f.eat()
+c=Cat()
+c.eat()
