@@ -27,3 +27,20 @@ while True:
         print("found")
     else:
         print("not found")
+
+
+print(num.count(1))
+
+count=0
+for i in num:
+    if i==1:
+        count=count+1
+print(count)
+
+
+listtt=[]
+for n in num:
+    if not  listtt:
+        listtt.append(n)
+for i in listtt:
+    print(i,"appears",num.count(i))
