@@ -12,3 +12,9 @@ for i in num:
         print("found")
     else:
         print("not found")
+
+print(fruits.index("banana"))
+
+for i in range(len(num)):
+    if num[i]==1:
+        print("found at :",i)
