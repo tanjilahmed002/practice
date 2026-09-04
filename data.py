@@ -18,3 +18,12 @@ print(fruits.index("banana"))
 for i in range(len(num)):
     if num[i]==1:
         print("found at :",i)
+
+while True:
+    search=input("enter your choice :").lower()
+    if search=="end":
+        break
+    if search in fruits:
+        print("found")
+    else:
+        print("not found")
