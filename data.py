@@ -44,3 +44,23 @@ for n in num:
         listtt.append(n)
 for i in listtt:
     print(i,"appears",num.count(i))
+
+
+print(fruits.index("banana"))
+
+
+print(fruits.count("banana"))
+print(num.count(1))
+
+
+for i in range(len(num)):
+    if num[i]==1:
+        print("found at :",i)
+
+
+unique=[]
+for j in num:
+    if not unique:
+        unique.append(j)
+for i in unique:
+    print(i,"appears",num.count(i))
