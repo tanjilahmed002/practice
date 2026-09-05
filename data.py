@@ -69,3 +69,9 @@ for i in unique:
 
 print(fruits.count("banana"))
 print(num.count(1))
+
+print(fruits.index("mango"))
+
+for i in range(len(num)):
+    if num[i]==1:
+        print("found at ",i)
