@@ -75,3 +75,23 @@ print(fruits.index("mango"))
 for i in range(len(num)):
     if num[i]==1:
         print("found at ",i)
+
+for n in num:
+    if not unique:
+        unique.append(n)
+for i in unique:
+    print(i,"appears",num.count(i))
+
+
+dict={
+    "s1":{"name":"rimel","age":23,"mark":90},
+    "s2":{"name":"tanjil","age":24,"mark":80}
+}
+print(dict)
+
+for i,j in dict.items():
+    print(i)
+    for key,value in j.items():
+        if key=="name":
+            print(key,value)
+        print(key,value)
