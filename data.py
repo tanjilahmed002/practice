@@ -64,3 +64,8 @@ for j in num:
         unique.append(j)
 for i in unique:
     print(i,"appears",num.count(i))
+
+
+
+print(fruits.count("banana"))
+print(num.count(1))
