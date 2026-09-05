@@ -95,3 +95,15 @@ for i,j in dict.items():
         if key=="name":
             print(key,value)
         print(key,value)
+
+
+dic={}
+while True:
+    key=input("enter your key :")
+    if key=="end":
+        break
+    value=input("enter your value :")
+    dic[key]=value
+
+for i,j in dic.items():
+    print(i,j)
