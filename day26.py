@@ -54,3 +54,16 @@ while True:
     dic[key]=value
 for i,j in dic.items():
     print(i,j)
+
+def function_name():
+    print("hello")
+function_name()
+
+def function_name(name):
+    print("hello",name)
+function_name("rimel ahmed")
+
+def function_name(a,b):
+    return a+b
+add=function_name(4,2)
+print(add)
