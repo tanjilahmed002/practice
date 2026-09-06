@@ -67,3 +67,10 @@ def function_name(a,b):
     return a+b
 add=function_name(4,2)
 print(add)
+def function_name():
+    return 100
+print(function_name())
+
+def info(name,age):
+    print(name,age)
+info(name="tanjil ahmed",age=23)
