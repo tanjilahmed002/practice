@@ -21,3 +21,20 @@ print(fruit.index("apple"))
 for i in range(len(num)):
     if num[i]==1:
         print("founad at :",i)
+
+
+while True:
+    search=input("enter your choice :").lower()
+    if search=="end":
+        break
+    if search in fruit:
+        print("found")
+    else:
+        print("not found")
+
+unique=[]
+for i in num:
+    if not  unique:
+        unique.append(i)
+for j in unique:
+    print(j,"appears at ",num.index(j))
