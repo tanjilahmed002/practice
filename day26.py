@@ -17,3 +17,7 @@ for i in num:
 
 print(num.count(1))
 print(fruit.index("apple"))
+
+for i in range(len(num)):
+    if num[i]==1:
+        print("founad at :",i)
