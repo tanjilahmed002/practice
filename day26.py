@@ -38,3 +38,9 @@ for i in num:
         unique.append(i)
 for j in unique:
     print(j,"appears at ",num.index(j))
+
+count=0
+for i in num:
+    if i==1:
+        count=count+1
+print(count)
