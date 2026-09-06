@@ -84,3 +84,28 @@ def mul(a,b):
     return a-b,a+b,a*b
 x,y,z=mul(5,2)
 print(x,y,z)
+
+
+class Car:
+    def __init__(self):
+        self.name="rimel"
+c=Car()
+print(c.name)
+
+class Car:
+    def __init__(self):
+        self._name="rimel"
+class Car:
+    def __init__(self):
+        self.__name="rimel ahmed"
+
+from abc import ABC,abstractmethod
+class Bike(ABC):
+    @abstractmethod
+    def sound(self):
+        pass
+class Car(Bike):
+    def sound(self):
+        print("Car is not a bike")
+v=Car()
+v.sound()
