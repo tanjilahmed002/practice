@@ -109,3 +109,20 @@ class Car(Bike):
         print("Car is not a bike")
 v=Car()
 v.sound()
+
+class Bank:
+    def __init__(self):
+        self.__balance=500
+    def get_balance(self):
+        return self.__balance
+    def set_balance(self,amount):
+        if amount>0:
+            self.__balance=amount
+        else:
+            print("invalid")
+b=Bank()
+print(b.get_balance())
+b.set_balance(1000)
+print(b.get_balance())
+
+    
