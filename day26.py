@@ -44,3 +44,13 @@ for i in num:
     if i==1:
         count=count+1
 print(count)
+
+dic={}
+while True:
+    key=input("enter your key :")
+    if key=="end":
+        break
+    value=input("enter your value :")
+    dic[key]=value
+for i,j in dic.items():
+    print(i,j)
