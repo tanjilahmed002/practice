@@ -74,3 +74,13 @@ print(function_name())
 def info(name,age):
     print(name,age)
 info(name="tanjil ahmed",age=23)
+
+def single(x):
+    return x*x
+square=single(4)
+print(square)
+
+def mul(a,b):
+    return a-b,a+b,a*b
+x,y,z=mul(5,2)
+print(x,y,z)
