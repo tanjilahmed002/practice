@@ -7,3 +7,10 @@ print(fruit.index("banana"))
 for i in range(len(num)):
     if num[i]==1:
         print("found at :",i)
+
+unique=[]
+for i in num:
+    if not unique:
+        unique.append(i)
+    for j in unique:
+        print(i,"appears at :",num.count(i))
