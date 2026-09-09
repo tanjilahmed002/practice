@@ -125,4 +125,6 @@ print(b.get_balance())
 b.set_balance(1000)
 print(b.get_balance())
 
+print(num.count(1))
+
     
