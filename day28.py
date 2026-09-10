@@ -35,3 +35,8 @@ dic={
 print(dic)
 
 print(dic["name"])
+
+print(dic.get("age"))
+
+dic["name"]="rimel ahmed"
+print(dic["name"])
