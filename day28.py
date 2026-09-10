@@ -74,6 +74,8 @@ dic["s1"]['name']="rimelk ahmed"
 print(dic["s1"]["name"])
 
 
-del dic['s1']['name']
+for key in dic:
+    print(key)
 
-print(dic)
+for value in dic.values():
+    print(value)
