@@ -79,3 +79,24 @@ for key in dic:
 
 for value in dic.values():
     print(value)
+
+sett={1,2,3,4,5}
+print(sett)
+
+sett.add(6)
+print(sett)
+
+sett.update({7,8,9,10,11})
+print(sett)
+
+sett.remove(9)
+print(sett)
+
+sett.discard(10)
+print(sett)
+
+sett.pop()
+print(sett)
+
+sett.clear()
+print(sett)
