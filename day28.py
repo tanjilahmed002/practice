@@ -63,3 +63,17 @@ for i,j in dic.items():
     print(i)
     for key,value in j.items():
         print(key,value)
+
+
+
+print(dic["s1"]["name"])
+
+
+dic["s1"]['name']="rimelk ahmed"
+
+print(dic["s1"]["name"])
+
+
+del dic['s1']['name']
+
+print(dic)
