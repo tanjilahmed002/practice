@@ -23,3 +23,15 @@ print(tupple)
 
 for i in tupple:
     print(i)
+
+print(tupple[1:2])
+
+dic={
+    "name":"rimel",
+    "age":23,
+    "mark":60
+}
+
+print(dic)
+
+print(dic["name"])
