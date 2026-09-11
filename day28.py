@@ -123,3 +123,10 @@ print(num.count(3))
 for i in range(len(num)):
     if num[i]==1:
         print(num[i],"appears at",i)
+
+unique=[]
+for i in num:
+    if not unique:
+        unique.append(i)
+    for j in unique:
+        print(i,"appears in",num.count(i))
