@@ -100,3 +100,7 @@ print(sett)
 
 sett.clear()
 print(sett)
+
+
+fruit=["apple","mango","banana"]
+print("apple" in fruit)
