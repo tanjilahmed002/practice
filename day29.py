@@ -13,3 +13,7 @@ for i in num:
 print(num.count(2))
 
 print(num.index(2))
+
+for i in range(len(num)):
+    if num[i]==2:
+        print(num[i],"appears at",i)
