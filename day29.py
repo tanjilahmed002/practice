@@ -38,3 +38,14 @@ for i in num:
     if i==2:
         count=count+1
 print(i,"count in",count)
+
+dic={}
+while True:
+    key=input("enter your key :")
+    if key=="end":
+        break
+    value=input("enter your value :")
+    dic[key]=value
+
+for key,value in dic.items():
+    print(key,value)
