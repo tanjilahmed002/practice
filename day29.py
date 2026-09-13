@@ -26,3 +26,10 @@ while True:
         print("found")
     else:
         print("not found")
+
+unique=[]
+for i in num:
+    if not unique:
+        unique.append(i)
+    for j in unique:
+        print(num[i],"appeares in",num.count(i))
