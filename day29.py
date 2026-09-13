@@ -17,3 +17,12 @@ print(num.index(2))
 for i in range(len(num)):
     if num[i]==2:
         print(num[i],"appears at",i)
+
+while True:
+    search=input("enter your choice :").lower()
+    if search=="end":
+        break
+    if search in fruit:
+        print("found")
+    else:
+        print("not found")
