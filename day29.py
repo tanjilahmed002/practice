@@ -33,3 +33,8 @@ for i in num:
         unique.append(i)
     for j in unique:
         print(num[i],"appeares in",num.count(i))
+count=0
+for i in num:
+    if i==2:
+        count=count+1
+print(i,"count in",count)
