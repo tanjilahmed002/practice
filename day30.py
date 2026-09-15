@@ -18,3 +18,6 @@ print(listt)
 
 listt.pop()
 print(listt)
+
+listt.clear()
+print(listt)
