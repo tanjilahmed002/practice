@@ -12,3 +12,6 @@ print(listt)
 print(listt[1:3])
 
 print(listt[-4:-1])
+
+listt.remove(6)
+print(listt)
