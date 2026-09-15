@@ -5,3 +5,6 @@ for i in listt:
 
 listt.append(6)
 print(listt)
+
+listt.insert(5,7)
+print(listt)
