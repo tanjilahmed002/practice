@@ -27,3 +27,5 @@ print(tupple)
 
 for i in tupple:
     print(i)
+
+print(tupple[1::2])
