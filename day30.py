@@ -35,3 +35,9 @@ dic={
     "age":23
 }
 print(dic)
+
+for key in dic:
+    print(key)
+
+for value in dic.values():
+    print(value)
