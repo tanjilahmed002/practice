@@ -8,3 +8,5 @@ print(listt)
 
 listt.insert(5,7)
 print(listt)
+
+print(listt[1:3])
