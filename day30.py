@@ -41,3 +41,6 @@ for key in dic:
 
 for value in dic.values():
     print(value)
+
+for key,value in dic.items():
+    print(key,value)
