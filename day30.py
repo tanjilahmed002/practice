@@ -49,3 +49,6 @@ for key,value in dic.items():
 
 sett={1,2,3,4,5}
 print(sett)
+
+sett.add(7)
+print(sett)
