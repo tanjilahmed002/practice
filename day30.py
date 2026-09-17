@@ -52,3 +52,6 @@ print(sett)
 
 sett.add(7)
 print(sett)
+
+sett.update({6,8,9,11,12,10})
+print(sett)
