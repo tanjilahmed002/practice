@@ -44,3 +44,8 @@ for value in dic.values():
 
 for key,value in dic.items():
     print(key,value)
+
+
+
+sett={1,2,3,4,5}
+print(sett)
