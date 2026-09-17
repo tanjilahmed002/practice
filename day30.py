@@ -55,3 +55,6 @@ print(sett)
 
 sett.update({6,8,9,11,12,10})
 print(sett)
+
+sett.remove(11)
+print(sett)
