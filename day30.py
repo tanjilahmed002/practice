@@ -65,3 +65,7 @@ print(sett)
 
 sett.clear()
 print(sett)
+
+
+fruit=["apple","banana","mango"]
+print(fruit)
