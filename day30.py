@@ -72,3 +72,5 @@ print(fruit)
 
 for i in fruit:
     print(i)
+
+print("apple" in fruit)
