@@ -62,3 +62,6 @@ sett.discard(11)
 print(sett)
 sett.pop()
 print(sett)
+
+sett.clear()
+print(sett)
