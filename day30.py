@@ -58,3 +58,7 @@ print(sett)
 
 sett.remove(11)
 print(sett)
+sett.discard(11)
+print(sett)
+sett.pop()
+print(sett)
