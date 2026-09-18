@@ -162,3 +162,24 @@ class Bike(Carr):
         print("car is not a bike")
 b=Bike()
 b.sound()
+
+class Bike:
+    def sound(self):
+        print("this is bike")
+class Motor(Bike):
+    def eat(self):
+        print("this is car")
+n=Motor()
+n.sound()
+n.eat()
+
+class Bike:
+    def sound(self):
+        print("this is bike")
+class Motor:
+    def sound(self):
+        print("this is car")
+n=Motor()
+m=Bike()
+m.sound()
+n.sound()
