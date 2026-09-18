@@ -187,3 +187,7 @@ n.sound()
 def functionname():
     print("helo")
 functionname()
+
+def functionname(name):
+    print("hello",name)
+functionname("rimel")
