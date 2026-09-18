@@ -183,3 +183,7 @@ n=Motor()
 m=Bike()
 m.sound()
 n.sound()
+
+def functionname():
+    print("helo")
+functionname()
