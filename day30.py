@@ -90,3 +90,8 @@ for i in num:
 
 
 print(num.count(1))
+
+for i in range(len(num)):
+    if num[i]==1:
+        print(num[i],"appears at :",i)
+
