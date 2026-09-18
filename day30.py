@@ -130,3 +130,9 @@ dicc={
     "s2":{'name':"taanjil ahmed","age":24}
 }
 print(dicc)
+
+for i,j in dicc.items():
+    print(i)
+    for key,value in j.items():
+        print(key,value)
+
