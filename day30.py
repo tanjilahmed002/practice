@@ -124,3 +124,9 @@ while True:
         print("found")
     else:
         print("not found")
+
+dicc={
+    "s1":{"name":"rimel ahmed","age":23},
+    "s2":{'name':"taanjil ahmed","age":24}
+}
+print(dicc)
