@@ -143,3 +143,22 @@ class Car:
         self.name="rimel"
 c=Car()
 print(c.name)
+
+class Car:
+    def __init__(self):
+        self._name="rimel"
+
+class Car:
+    def __init__(self):
+        self.__name="rimel"
+
+from abc import ABC,abstractmethod
+class Carr(ABC):
+    @abstractmethod
+    def sound(self):
+        pass
+class Bike(Carr):
+    def sound(self):
+        print("car is not a bike")
+b=Bike()
+b.sound()
