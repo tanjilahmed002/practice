@@ -136,3 +136,10 @@ for i,j in dicc.items():
     for key,value in j.items():
         print(key,value)
 
+
+
+class Car:
+    def __init__(self):
+        self.name="rimel"
+c=Car()
+print(c.name)
