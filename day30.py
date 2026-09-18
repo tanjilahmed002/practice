@@ -113,3 +113,14 @@ while True:
     dic[key]=value
 for key,value in dic.items():
     print(key,value)
+
+
+
+while True:
+    search=input("enter your fruit :").lower()
+    if search=="end":
+        break
+    if search in fruit:
+        print("found")
+    else:
+        print("not found")
