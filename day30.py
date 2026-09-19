@@ -207,3 +207,8 @@ def square(x):
     return x*x
 sq=square(3)
 print(sq)
+
+def mul(a,b):
+    return a+b,a-b,a*b
+w,x,y=mul(4,2)
+print(w,x,y)
