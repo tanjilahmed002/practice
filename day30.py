@@ -191,3 +191,9 @@ functionname()
 def functionname(name):
     print("hello",name)
 functionname("rimel")
+
+
+def functionname(a,b):
+    return  a+b
+add=functionname(3,2)
+print(add)
