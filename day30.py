@@ -202,3 +202,8 @@ print(add)
 def functionname():
     return 100
 print(functionname())
+
+def square(x):
+    return x*x
+sq=square(3)
+print(sq)
