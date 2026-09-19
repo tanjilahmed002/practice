@@ -197,3 +197,8 @@ def functionname(a,b):
     return  a+b
 add=functionname(3,2)
 print(add)
+
+
+def functionname():
+    return 100
+print(functionname())
