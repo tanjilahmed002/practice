@@ -23,3 +23,10 @@ for i in range(len(num)):
 
 
 print(num.count(1))
+
+unique=[]
+for i in num:
+    if not unique:
+        unique.append(i)
+    for k in unique:
+        print(num[i],"appears :",num.count(i))
