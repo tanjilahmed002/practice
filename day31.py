@@ -47,3 +47,6 @@ print(liastt)
 
 for i in liastt:
     print(i)
+
+liastt.append(6)
+print(liastt)
