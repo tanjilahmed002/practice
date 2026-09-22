@@ -30,3 +30,14 @@ for i in num:
         unique.append(i)
     for k in unique:
         print(num[i],"appears :",num.count(i))
+
+
+dic={}
+while True:
+    key=input("enter your key :")
+    if key=="end":
+        break
+    value=input("enter your value :")
+    dic[key]=value
+for key,value in dic.items():
+    print(key,value)
