@@ -50,3 +50,6 @@ for i in liastt:
 
 liastt.append(6)
 print(liastt)
+
+liastt.insert(6,7)
+print(liastt)
