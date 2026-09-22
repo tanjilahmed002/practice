@@ -44,3 +44,6 @@ for key,value in dic.items():
 
 liastt=[1,2,3,4,5]
 print(liastt)
+
+for i in liastt:
+    print(i)
