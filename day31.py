@@ -56,3 +56,6 @@ print(liastt)
 
 liastt.remove(7)
 print(liastt)
+
+liastt.pop(5)
+print(liastt)
