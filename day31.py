@@ -53,3 +53,6 @@ print(liastt)
 
 liastt.insert(6,7)
 print(liastt)
+
+liastt.remove(7)
+print(liastt)
