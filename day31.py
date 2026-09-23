@@ -83,3 +83,6 @@ for i in dicc:
 
 for value in dicc.items():
     print(value)
+
+for key,value in dicc.items():
+    print(key,value)
