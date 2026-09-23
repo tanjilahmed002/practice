@@ -70,3 +70,13 @@ for i in tupple:
     print(i)
 
 print(tupple[1:2])
+
+dicc={
+    "name":'rimel ahmed',
+    "age":23
+}
+print(dicc)
+
+
+for i in dicc:
+    print(i)
