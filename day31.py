@@ -65,3 +65,6 @@ print(liastt)
 
 tupple=(1,2,3,4,"rimel")
 print(tupple)
+
+for i in tupple:
+    print(i)
