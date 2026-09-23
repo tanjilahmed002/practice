@@ -62,3 +62,6 @@ print(liastt)
 
 liastt.clear()
 print(liastt)
+
+tupple=(1,2,3,4,"rimel")
+print(tupple)
