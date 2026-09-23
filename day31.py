@@ -86,3 +86,7 @@ for value in dicc.items():
 
 for key,value in dicc.items():
     print(key,value)
+
+
+dicc["name"]="rimel"
+print(dicc)
