@@ -80,3 +80,6 @@ print(dicc)
 
 for i in dicc:
     print(i)
+
+for value in dicc.items():
+    print(value)
