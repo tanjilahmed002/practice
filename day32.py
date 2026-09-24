@@ -9,3 +9,6 @@ print(sett)
 
 for i in sett:
     print(i)
+
+sett.remove(1)
+print(sett)
