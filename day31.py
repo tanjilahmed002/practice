@@ -94,3 +94,6 @@ print(dicc)
 
 del dicc["age"]
 print(dicc)
+
+dicc.clear()
+print(dicc)
