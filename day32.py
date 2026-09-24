@@ -12,3 +12,9 @@ for i in sett:
 
 sett.remove(1)
 print(sett)
+
+sett.discard(1)
+print(sett)
+
+sett.pop()
+print(sett)
