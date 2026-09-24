@@ -100,3 +100,6 @@ print(dicc)
 
 sett={1,2,3,4}
 print(sett)
+
+sett.add(5)
+print(sett)
