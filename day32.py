@@ -6,3 +6,6 @@ print(sett)
 
 sett.update({6,7,8})
 print(sett)
+
+for i in sett:
+    print(i)
