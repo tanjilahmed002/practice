@@ -90,3 +90,7 @@ for key,value in dicc.items():
 
 dicc["name"]="rimel"
 print(dicc)
+
+
+del dicc["age"]
+print(dicc)
