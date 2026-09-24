@@ -97,3 +97,6 @@ print(dicc)
 
 dicc.clear()
 print(dicc)
+
+sett={1,2,3,4}
+print(sett)
