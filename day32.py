@@ -47,3 +47,10 @@ print(num.index(1))
 for i in range(len(num)):
     if num[i]==1:
         print(i)
+
+unique=[]
+for i in num:
+    if not unique:
+        unique.append(i)
+    for j in unique:
+        print(num.count(i))
