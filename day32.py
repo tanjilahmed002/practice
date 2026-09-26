@@ -41,3 +41,5 @@ for i in num:
 
 
 print(num.count(1))
+
+print(num.index(1))
