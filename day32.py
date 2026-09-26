@@ -54,3 +54,13 @@ for i in num:
         unique.append(i)
     for j in unique:
         print(num.count(i))
+
+
+while True:
+    search=input("enter your choice :")
+    if search=="end":
+        break
+    if search in fruit:
+        print("found")
+    else:
+        print("not found")
