@@ -22,3 +22,7 @@ print(sett)
 
 sett.clear()
 print(sett)
+
+
+fruit=["apple","banana","mango"]
+print("apple" in fruit)
