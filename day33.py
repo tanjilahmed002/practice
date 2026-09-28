@@ -47,3 +47,7 @@ while True:
     dic[key]=value
 for key,value in dic.items():
     print(key,value)
+
+
+for key in dic:
+    print(key)
