@@ -25,3 +25,14 @@ for i in num:
         unique.append(i)
     for j in unique:
         print(num[i],"appears at :",num.count(j))
+
+
+
+while True:
+    search=input("enter your :")
+    if search=="end":
+        break
+    if search in fruit:
+        print("found")
+    else:
+        print("not found")
