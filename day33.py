@@ -11,3 +11,6 @@ for i in num:
         print("found")
     else:
         print("not found")
+
+
+print(num.count(1))
