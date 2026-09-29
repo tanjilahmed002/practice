@@ -51,3 +51,7 @@ for key,value in dic.items():
 
 for key in dic:
     print(key)
+
+
+import math
+print(math.pi)
