@@ -55,3 +55,5 @@ for key in dic:
 
 import math
 print(math.pi)
+
+print(math.cos(70))
