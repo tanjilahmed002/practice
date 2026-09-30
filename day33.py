@@ -59,3 +59,6 @@ print(math.pi)
 print(math.cos(70))
 import random
 print(random.randint(1000,9999))
+
+
+print(random.randrange(100,999,4))
