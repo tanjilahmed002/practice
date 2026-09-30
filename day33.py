@@ -62,3 +62,5 @@ print(random.randint(1000,9999))
 
 
 print(random.randrange(100,999,4))
+
+print(random.random())
