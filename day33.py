@@ -64,3 +64,6 @@ print(random.randint(1000,9999))
 print(random.randrange(100,999,4))
 
 print(random.random())
+
+otp=random.randint(10000,99999)
+print("here is your otp :",otp)
