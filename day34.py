@@ -21,3 +21,7 @@ print(listt)
 
 listt.clear()
 print(listt)
+
+
+tupple=(1,2,3,4,5,"rimel","tanjil")
+print(tupple)
