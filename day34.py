@@ -46,3 +46,8 @@ for ley in dicc:
 
 for value in dicc.values():
     print(value)
+
+print(dicc["age"])
+
+
+print(dicc.get("name"))
