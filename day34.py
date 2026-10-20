@@ -7,3 +7,6 @@ for i in listt:
 
 listt.append(7)
 print(listt)
+
+listt.insert(7,8)
+print(listt)
