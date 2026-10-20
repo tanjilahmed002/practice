@@ -27,4 +27,6 @@ tupple=(1,2,3,4,5,"rimel","tanjil")
 print(tupple)
 
 for k in tupple:
-    print(k,end=" ")
+    print(k)
+
+print(tupple[0::2])
