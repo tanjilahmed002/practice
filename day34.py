@@ -39,3 +39,6 @@ print(dicc)
 
 for key,value in dicc.items():
     print(key,value)
+
+for ley in dicc:
+    print(ley)
