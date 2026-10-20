@@ -13,3 +13,8 @@ print(listt)
 
 listt.remove(8)
 print(listt)
+
+
+
+listt.pop()
+print(listt)
