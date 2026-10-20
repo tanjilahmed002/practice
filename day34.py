@@ -10,3 +10,6 @@ print(listt)
 
 listt.insert(7,8)
 print(listt)
+
+listt.remove(8)
+print(listt)
