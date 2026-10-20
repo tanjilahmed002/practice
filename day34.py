@@ -42,3 +42,7 @@ for key,value in dicc.items():
 
 for ley in dicc:
     print(ley)
+
+
+for value in dicc.values():
+    print(value)
