@@ -30,3 +30,12 @@ for k in tupple:
     print(k)
 
 print(tupple[0::2])
+
+dicc={
+    "name":"rimel ahmed",
+    "age":23
+}
+print(dicc)
+
+for key,value in dicc.items():
+    print(key,value)
