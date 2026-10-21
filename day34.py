@@ -57,3 +57,8 @@ print(dicc)
 
 dicc.update({"name":"rimel","age":25})
 print(dicc)
+
+
+
+del dicc["age"]
+print(dicc)
