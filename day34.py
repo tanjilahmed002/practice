@@ -78,3 +78,13 @@ for i,j in dicc.items():
     for key,value in j.items():
         print(key,value)
 
+
+
+print(dicc["s1"]["name"])
+
+
+del dicc["s2"]["name"]
+print(dicc)
+
+dicc.pop("s2")
+print(dicc)
