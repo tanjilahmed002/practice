@@ -65,3 +65,10 @@ print(dicc)
 
 dicc.pop("name")
 print(dicc)
+
+
+dicc={
+    "s1":{"name":"rimel","age":23},
+    "s2":{"name":"tanjil","age":24}
+}
+print(dicc)
