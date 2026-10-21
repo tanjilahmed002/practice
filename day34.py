@@ -93,3 +93,22 @@ dicc.popitem()
 print(dicc)
 sett={1,2,3,4,5}
 print(sett)
+
+for i in sett:
+    print(i)
+
+sett.add(6)
+print(sett)
+sett.update({7,8,9,10})
+print(sett)
+
+sett.remove(8)
+print(sett)
+
+sett.discard(8)
+print(sett)
+sett.pop()
+print(sett)
+
+sett.clear()
+print(sett)
