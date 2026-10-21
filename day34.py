@@ -62,3 +62,6 @@ print(dicc)
 
 del dicc["age"]
 print(dicc)
+
+dicc.pop("name")
+print(dicc)
