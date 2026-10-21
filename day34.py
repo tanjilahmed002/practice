@@ -88,3 +88,8 @@ print(dicc)
 
 dicc.pop("s2")
 print(dicc)
+
+dicc.popitem()
+print(dicc)
+sett={1,2,3,4,5}
+print(sett)
