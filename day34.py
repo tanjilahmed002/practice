@@ -157,3 +157,8 @@ while True:
     dic[key]=value
 for i,j in dic.items():
     print(i,j)
+
+print(num.count(3))
+for i in range(len(num)):
+    if num[i]==3:
+        print(i)
