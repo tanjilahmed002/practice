@@ -161,4 +161,4 @@ for i,j in dic.items():
 print(num.count(3))
 for i in range(len(num)):
     if num[i]==3:
-        print(i)
+        print(num[i],"appears in :",i)
