@@ -112,3 +112,7 @@ print(sett)
 
 sett.clear()
 print(sett)
+
+
+fruit=[1,2,3,4,5,6]
+print(fruit)
