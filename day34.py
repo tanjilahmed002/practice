@@ -131,3 +131,12 @@ for i in num:
         print("found")
     else:
         print("not found")
+
+while True:
+    search=input("enter your choice :").lower()
+    if search=="end":
+        break
+    if search in fruit:
+        print("found")
+    else:
+        print("not found")
