@@ -140,3 +140,20 @@ while True:
         print("found")
     else:
         print("not found")
+
+
+count=0
+for i in num:
+    if i==3:
+        count=count+1
+print(count)
+
+dic={}
+while True:
+    key=input("enter your key :")
+    if key=="end":
+        break
+    value=input("enter your value :")
+    dic[key]=value
+for i,j in dic.items():
+    print(i,j)
