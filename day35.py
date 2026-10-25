@@ -25,3 +25,8 @@ info(name="rimel",age=23)
 def student(name,age):
     print(name,age)
 student("rimel",23)
+
+def square(x):
+    return x*x
+addd=square(4)
+print(addd)
