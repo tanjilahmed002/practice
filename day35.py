@@ -30,3 +30,9 @@ def square(x):
     return x*x
 addd=square(4)
 print(addd)
+
+
+def mult(a,b):
+    return a-b,a+b,a*b,a/b
+w,x,y,z=mult(5,3)
+print(w,x,y,z)
