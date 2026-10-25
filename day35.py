@@ -12,3 +12,7 @@ def function_name(a,b):
     return a+b
 add=function_name(4,2)
 print(add)
+
+def get_return():
+    return 100
+print(get_return())
