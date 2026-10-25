@@ -44,3 +44,5 @@ print(random.randrange(2000,5000,100))
 
 fruit=["apple","mango","banana",'jackfruit',1,2,3,4,5,6]
 print(random.choice(fruit))
+
+print(random.sample(fruit,3))
