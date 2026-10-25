@@ -20,3 +20,8 @@ print(get_return())
 def info(name,age):
     print(name,age)
 info(name="rimel",age=23)
+
+
+def student(name,age):
+    print(name,age)
+student("rimel",23)
