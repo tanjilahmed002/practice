@@ -39,3 +39,5 @@ print(w,x,y,z)
 
 import random
 print(random.random())
+print(random.randint(1000,9999))
+print(random.randrange(2000,5000,100))
