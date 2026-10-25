@@ -41,3 +41,6 @@ import random
 print(random.random())
 print(random.randint(1000,9999))
 print(random.randrange(2000,5000,100))
+
+fruit=["apple","mango","banana",'jackfruit',1,2,3,4,5,6]
+print(random.choice(fruit))
