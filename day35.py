@@ -46,3 +46,6 @@ fruit=["apple","mango","banana",'jackfruit',1,2,3,4,5,6]
 print(random.choice(fruit))
 
 print(random.sample(fruit,3))
+
+otp=random.randint(1000,9999)
+print('Your otp is here :',otp)
