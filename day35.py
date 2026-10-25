@@ -16,3 +16,7 @@ print(add)
 def get_return():
     return 100
 print(get_return())
+
+def info(name,age):
+    print(name,age)
+info(name="rimel",age=23)
